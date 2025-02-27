@@ -11,7 +11,38 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.google.com/*", "*://*.duckduckgo.com/*", "*://*.bing.com/*"],
+        "matches": [
+          "*://*.google.com/*", 
+          "*://*.google.co.jp/*",
+          "*://*.google.co.uk/*",
+          "*://*.google.es/*",
+          "*://*.google.ca/*",
+          "*://*.google.de/*",
+          "*://*.google.it/*",
+          "*://*.google.fr/*",
+          "*://*.google.com.au/*",
+          "*://*.google.com.tw/*",
+          "*://*.google.nl/*",
+          "*://*.google.com.br/*",
+          "*://*.google.com.tr/*",
+          "*://*.google.be/*",
+          "*://*.google.com.gr/*",
+          "*://*.google.co.in/*",
+          "*://*.google.com.mx/*",
+          "*://*.google.dk/*",
+          "*://*.google.com.ar/*",
+          "*://*.google.ch/*",
+          "*://*.google.cl/*",
+          "*://*.google.at/*",
+          "*://*.google.co.kr/*",
+          "*://*.google.ie/*",
+          "*://*.google.com.co/*",
+          "*://*.google.pl/*",
+          "*://*.google.pt/*",
+          "*://*.google.com.pk/*",
+          "*://*.duckduckgo.com/*", 
+          "*://*.bing.com/*"
+        ],
         "js": ["noAIsearch.js"]
       }
     ]
